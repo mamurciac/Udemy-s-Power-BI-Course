@@ -1,2 +1,8 @@
 Medida en tabla de empleados
 Total Empleados = COUNTROWS('Tabla Empleados')
+
+Medida en tabla de sueldos
+Sueldo Promedio = AVERAGE('Tabla Sueldo'[Sueldo])
+
+Medida en tabla de evaluaciones
+Evaluación Promedio = AVERAGE('Tabla Evaluacion'[Evaluación])
