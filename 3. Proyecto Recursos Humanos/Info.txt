@@ -1,0 +1,2 @@
+Medida en tabla de empleados
+Total Empleados = COUNTROWS('Tabla Empleados')
