@@ -6,3 +6,9 @@ Sueldo Promedio = AVERAGE('Tabla Sueldo'[Sueldo])
 
 Medida en tabla de evaluaciones
 Evaluación Promedio = AVERAGE('Tabla Evaluacion'[Evaluación])
+
+Columna para la edad
+Edad = INT(YEARFRAC('Tabla Empleados'[Nacimiento], TODAY()))
+
+Medida en tabla de empleados
+Edad Promedio = AVERAGE('Tabla Empleados'[Edad])
