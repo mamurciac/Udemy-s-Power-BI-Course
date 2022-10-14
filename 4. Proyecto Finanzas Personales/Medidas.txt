@@ -8,3 +8,7 @@ Total Metas = CALCULATE([Total Expectativas], TablaExpectativas[Tipo] = "Meta")
 Total Presupuesto = CALCULATE([Total Expectativas], TablaExpectativas[Tipo] = "Presupuesto")
 
 Y ciertas cosas como indicar el total de ingresos, total de gastos, total de metas y total de presupuesto se realiza de 2 formas (vía medidas y filtros; vía solo medida)
+
+
+Utilidad = [Total Ingresos] - [Total Gastos]
+Utilidad Esperada = [Total Metas] - [Total Presupuesto]
