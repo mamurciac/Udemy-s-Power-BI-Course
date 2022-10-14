@@ -12,3 +12,7 @@ Y ciertas cosas como indicar el total de ingresos, total de gastos, total de met
 
 Utilidad = [Total Ingresos] - [Total Gastos]
 Utilidad Esperada = [Total Metas] - [Total Presupuesto]
+
+Medidas creadas en una tabla vacía (Se usa la opción Especificar Datos)
+Cuota Ingresos = [Total Ingresos] / [Total Metas]
+Cuota Gastos = [Total Gastos] / [Total Presupuesto]
