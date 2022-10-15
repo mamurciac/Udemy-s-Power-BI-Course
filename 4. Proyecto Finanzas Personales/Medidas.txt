@@ -16,3 +16,12 @@ Utilidad Esperada = [Total Metas] - [Total Presupuesto]
 Medidas creadas en una tabla vacía (Se usa la opción Especificar Datos)
 Cuota Ingresos = [Total Ingresos] / [Total Metas]
 Cuota Gastos = [Total Gastos] / [Total Presupuesto]
+Cuota Utilidad = [Utilidad] / [Utilidad Esperada]
+
+
+
+Nuevas Medidas
+Saldo = CALCULATE([Utilidad], FILTER(ALL(TablaFinanzas), TablaFinanzas[Fecha] <= MAX(TablaFinanzas[Fecha])))
+Saldo Esperado = CALCULATE([Utilidad Esperada], FILTER(ALL(TablaExpectativas), TablaExpectativas[Fecha] <= MAX(TablaExpectativas[Fecha])))
+
+Cuota Saldo = [Saldo] / [Saldo Esperado]
