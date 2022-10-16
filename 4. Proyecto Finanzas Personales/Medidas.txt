@@ -25,3 +25,7 @@ Saldo = CALCULATE([Utilidad], FILTER(ALL(TablaFinanzas), TablaFinanzas[Fecha] <=
 Saldo Esperado = CALCULATE([Utilidad Esperada], FILTER(ALL(TablaExpectativas), TablaExpectativas[Fecha] <= MAX(TablaExpectativas[Fecha])))
 
 Cuota Saldo = [Saldo] / [Saldo Esperado]
+
+
+Fecha de Actualización (Se crea una consulta en blanco):
+= #table(type table[Última Actualización = datetime], {{DateTime.LocalNow()}})
