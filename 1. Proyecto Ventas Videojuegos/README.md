@@ -27,7 +27,7 @@ Se proporciona un archivo de Excel llamado **VentasVideojuegos.xlsx**, el cual c
 
 ## Modelamiento Dimensional:
 El siguiente modelo ER indica las relaciones entre hechos y dimensiones, además de la estructura de la información como se busca tenerla para analizarla según los objetivos:
-![Modelo ER](https://github.com/mamurciac/Udemy-s-Power-BI-Course/blob/master/1.%20Proyecto%20Ventas%20Videojuegos/Modelo%20ER.pdf)
+![Modelo ER](https://github.com/mamurciac/Udemy-s-Power-BI-Course/blob/master/1.%20Proyecto%20Ventas%20Videojuegos/Modelo%20ER.png)
 
 ## Mapa de Transformaciones de Datos (Versión del Video):
 - **Encabezados promovidos:** Se usa la primera fila como encabezado.
