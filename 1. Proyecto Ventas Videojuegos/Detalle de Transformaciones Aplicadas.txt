@@ -1,0 +1,24 @@
+Transformaciones Aplicadas (Originalmente en el Video):
+- Encabezados promovidos: Se usa la primera fila como encabezado.
+- Tipo cambiado: Se cambian los tipos de datos de las columnas necesarias a un tipo de dato adecuado según su naturaleza.
+- Columnas quitadas: Se elimina la columna Ventas Global.
+- Columna de anulación de dinamización: Se aplica anulación de dinamización de columnas a las columnas Ventas NA, Ventas EU, Ventas JP y Ventas Otros.
+- Columnas con nombre cambiado: Se renombran las columnas Genero por Género, Atributo por Región y Valor por Ventas (Millones).
+- Valor reemplazado: En la columna Región se reemplaza el valor "Ventas NA" por "Norteamérica".
+- Valor reemplazado: En la columna Región se reemplaza el valor "Ventas EU" por "Europa".
+- Valor reemplazado: En la columna Región se reemplaza el valor "Ventas JP" por "Japón".
+- Valor reemplazado: En la columna Región se reemplaza el valor "Ventas Otros" por "Otros".
+
+Transformaciones Aplicadas (Forma optimizada):
+- Encabezados promovidos: Se usa la primera fila como encabezado.
+- Tipo cambiado: Se cambian los tipos de datos de las columnas necesarias a un tipo de dato adecuado según su naturaleza.
+- Columnas quitadas: Se elimina la columna Ventas Global.
+- Columna de anulación de dinamización: Se aplica anulación de dinamización de columnas a las columnas Ventas NA, Ventas EU, Ventas JP y Ventas Otros.
+- Columnas con nombre cambiado: Se renombran las columnas Genero por Género y Valor por Ventas (Millones).
+- Columna condicional agregada: Se llama Región, y se tienen las siguientes condiciones:
+	- Si Atributo = "Ventas NA", su nuevo valor es "Norteamérica".
+	- Si Atributo = "Ventas EU", su nuevo valor es "Europa".
+	- Si Atributo = "Ventas JP", su nuevo valor es "Japón".
+	- Si Atributo = "Ventas Otros", su nuevo valor es "Otros".
+- Columnas quitadas: Se elimina la columna Atributo.
+- Columnas reordenadas: Se reordenan las columnas necesarias.
