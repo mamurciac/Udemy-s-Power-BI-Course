@@ -59,7 +59,7 @@ El siguiente modelo ER indica las relaciones entre hechos y dimensiones, además
 
 ## Modelo de Tablas:
 Se verifica la traducción del modelo ER en el modelo relacional o modelo de tablas:
-![Modelo ER](https://github.com/mamurciac/Udemy-s-Power-BI-Course/blob/master/1.%20Proyecto%20Ventas%20Videojuegos/Modelo%20ER.png)
+![Modelo Relacional](https://github.com/mamurciac/Udemy-s-Power-BI-Course/blob/master/1.%20Proyecto%20Ventas%20Videojuegos/Modelo%20Relacional.JPG)
 
 ## Vista previa del Reporte:
 ![Vista previa del Reporte](https://github.com/mamurciac/Udemy-s-Power-BI-Course/blob/master/1.%20Proyecto%20Ventas%20Videojuegos/Vista%20del%20Reporte.JPG)
