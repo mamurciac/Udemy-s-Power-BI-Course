@@ -1,5 +1,8 @@
 # 1. Proyecto sobre Ventas de Videojuegos
 
+## Enlace de Demostración:  
+[https://app.powerbi.com/view?r=eyJrIjoiNGJlNDI5ZjAtZjFkYy00MzkzLTkzZGItOGJlY2ZkNWM2ZWE5IiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9](https://app.powerbi.com/view?r=eyJrIjoiNGJlNDI5ZjAtZjFkYy00MzkzLTkzZGItOGJlY2ZkNWM2ZWE5IiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9)
+
 ## Objetivo
 Desarrollar un reporte interactivo que permita analizar las **ventas** de millones de copias de videojuegos a nivel global.
 
@@ -51,8 +54,8 @@ El siguiente modelo ER indica las relaciones entre hechos y dimensiones, además
 - **Columnas quitadas:** Se elimina la columna Atributo.
 - **Columnas reordenadas:** Se reordenan las columnas necesarias.
 
-## Enlace de Demostración:  
-[https://app.powerbi.com/view?r=eyJrIjoiNGJlNDI5ZjAtZjFkYy00MzkzLTkzZGItOGJlY2ZkNWM2ZWE5IiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9](https://app.powerbi.com/view?r=eyJrIjoiNGJlNDI5ZjAtZjFkYy00MzkzLTkzZGItOGJlY2ZkNWM2ZWE5IiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9)
+## Vista previa del Mapa de Transformaciones:
+![Mapa de Transformaciones](https://github.com/mamurciac/Udemy-s-Power-BI-Course/blob/master/1.%20Proyecto%20Ventas%20Videojuegos/Transformaci%C3%B3n%20de%20Datos%20%5BPower%20Query%5D.jpg)
 
 ## Vista previa del Reporte:
 ![Vista previa del Reporte](https://github.com/mamurciac/Udemy-s-Power-BI-Course/blob/master/1.%20Proyecto%20Ventas%20Videojuegos/Vista%20del%20Reporte.JPG)
